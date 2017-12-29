@@ -5,8 +5,8 @@
 
 Other commands
 
-- lint code - `yarn lint`
-- run tests - `yarn test`
+- lint code - `npm lint`
+- run tests - `npm test`
 
 ---
 
