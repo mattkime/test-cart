@@ -1,12 +1,15 @@
 # test-cart
 
-1. Install dependencies and build - `npm && npm build`
+Requires node v6.10 or higher. Yarn can be used instead of npm.
+
+1. Install dependencies and build - `npm && npm run build`
 2. Run - `npm start`
 
 Other commands
 
-- lint code - `yarn lint`
-- run tests - `yarn test`
+- lint code - `npm run lint`
+- run tests - `npm test`
+- check types - `npm run typecheck`
 
 ---
 
@@ -33,5 +36,5 @@ Decisions made in the course of completing the assessment
 - I used static type checking via flow and ommitted code comments, JSDoc style
   or otherwise. The hope is that the function names and type annotations are
   expressive enough to understand the code. This might be insufficient in a
-  larger codebase but more than enough for a small tool. Ultimately its up to
-  my teammates to determine if communication has been effective.
+  larger codebase but enough for a small tool. Ultimately its up to my teammates
+  to determine if communication has been effective.

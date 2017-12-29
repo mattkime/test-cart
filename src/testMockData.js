@@ -23,9 +23,9 @@ const itemImported = {
 };
 
 module.exports = {
-	itemTaxExempt,
-	itemTaxed,
-	itemTaxExemptImported,
-	itemImported,
+  itemTaxExempt,
+  itemTaxed,
+  itemTaxExemptImported,
+  itemImported,
 };
 

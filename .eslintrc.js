@@ -1,6 +1,7 @@
 module.exports = {
+	"parser": "babel-eslint",
     "extends": ["airbnb-base", "plugin:flowtype/recommended"],
-	"plugins": ["jest"],
+	"plugins": ["jest", "flowtype"],
 	"env": {
 		"jest/globals": true,
 	},
