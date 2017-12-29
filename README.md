@@ -1,6 +1,6 @@
 # test-cart
 
-Requires node v6.10 or higher. Yarn can be used instead of npm.
+Requires node v6.10 or higher. Yarn can be used instead of npm if preferred.
 
 1. Install dependencies and build - `npm && npm run build`
 2. Run - `npm start`
