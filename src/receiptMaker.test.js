@@ -45,8 +45,8 @@ describe('receiptMaker', () => {
     expect(itemQty4.taxesTotal).toEqual(15);
     expect(itemQty4.pricePlusTax).toEqual(115);
 
-	const basket = [ itemQty, itemQty2, itemQty3, itemQty4 ];
-	expect(receiptMaker.basketSalesTax(basket)).toEqual(30);
-	expect(receiptMaker.basketTotal(basket)).toEqual(430);
+    const basket = [itemQty, itemQty2, itemQty3, itemQty4];
+    expect(receiptMaker.basketSalesTax(basket)).toEqual(30);
+    expect(receiptMaker.basketTotal(basket)).toEqual(430);
   });
 });

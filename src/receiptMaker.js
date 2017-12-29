@@ -1,13 +1,14 @@
 // @flow
+import type { ItemQty } from 'receiptMaker'; // eslint-disable-line
+
 const colors = require('colors/safe');
 const _ = require('lodash');
 const taxConfig = require('./taxes');
 
-import type { ItemQty } from 'receiptMaker';
 
 const taxRoundUp5 = (amount: number, tax: number): number =>
   Math.ceil(amount * tax / 5) * 5;
-const centsToDollars = (cents:number = 0): string =>
+const centsToDollars = (cents: number = 0): string =>
   (cents / 100).toFixed(2);
 
 const calcItemQtyTaxes = (itemQty: ItemQty): ItemQty => {
