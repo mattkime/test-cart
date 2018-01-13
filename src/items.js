@@ -1,5 +1,4 @@
 
-// TODO - define item type
 const skittles = {
   name: '16lb bag of Skittles',
   tax_exempt: true,
